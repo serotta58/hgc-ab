@@ -66,7 +66,7 @@ function ServiceList(props) {
           <Grid item xs={12} md={4} key={title}>
             <Card className={classes.card}>
               <CardActionArea>
-                <CardMedia image={imageURL} className={classes.cardMedia} />
+                <CardMedia image={imageURL.publicURL} className={classes.cardMedia} />
                 <CardContent>
                   <Typography gutterBottom variant="h6" className={classes.titleText}>
                     {title}

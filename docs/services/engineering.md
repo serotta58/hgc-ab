@@ -2,7 +2,7 @@
 path: "/services/engineering"
 title: "Engineering"
 date: 2014-02-11T12:33:46+10:00
-imageURL: "https://d3lubguj0jcn6d.cloudfront.net/engineering.png"
+imageURL: "./engineering.png"
 published: "Yes"
 ---
 

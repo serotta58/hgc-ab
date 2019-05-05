@@ -2,7 +2,7 @@
 path: "/services/data-science"
 title: "Data Science"
 date: 2014-02-11T12:33:46+10:00
-imageURL: "https://d3lubguj0jcn6d.cloudfront.net/bigdata_800.jpg"
+imageURL: "./bigdata_800.jpg"
 published: "Yes"
 ---
 
