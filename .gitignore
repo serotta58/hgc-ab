@@ -1,0 +1,16 @@
+# Ignore Webstorm specifics
+/.idea/
+package-lock.json
+yarn-error.log
+yarn.lock
+
+# Ignore node_modules
+/node_modules/
+
+# Ignore static production build to GITHUB
+.cache/
+/public/
+/build/
+/.env.development
+/.env.production
+/.env
