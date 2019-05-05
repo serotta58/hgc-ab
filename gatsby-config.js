@@ -7,7 +7,7 @@
  */
 
 module.exports = {
-  // Customize me!
+  pathPrefix: '/hgc-ab',
   siteMetadata: {
     company: "HGC Consulting AB",
     domain: "https://hgc.se",

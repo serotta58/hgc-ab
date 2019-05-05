@@ -2,7 +2,7 @@
 path: "/articles/js-oop-explained"
 title: "OOP - explained"
 date: 2014-03-14T12:33:46+10:00
-imageURL: "/images/javascript-illustration.png"
+imageURL: "./javascript-illustration.png"
 published: "Yes"
 ---
 
@@ -13,7 +13,7 @@ adopt some valuable techniques, namely, Inheritance, objects can inherit feature
 objects can share the same interface—how they are accessed and used—while their underlying implementation of the 
 interface may differ, and Encapsulation, each object is responsible for specific tasks.
 
-![Material design type system](../images/javascript-illustration.png)
+![Material design type system](javascript-illustration.png)
 
 In this article, we are concerned with only Inheritance and Encapsulation since only these two concepts apply to OOP 
 in JavaScript, particularly because, in JavaScript, objects can encapsulate functionality and inherit methods and 

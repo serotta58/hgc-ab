@@ -61,6 +61,7 @@ function ServiceList(props) {
           }
         } = edge
 
+
         return (
           <Grid item xs={12} md={4} key={title}>
             <Card className={classes.card}>
@@ -74,7 +75,7 @@ function ServiceList(props) {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button component={Link} to={path} state={{modal: true}}  size="small" color="primary">
+                <Button component={Link} to={path} state={{modal: false}}  size="small" color="primary">
                   Read more ...
                 </Button>
               </CardActions>

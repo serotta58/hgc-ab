@@ -53,53 +53,25 @@ const GeneralTemplate = ({ classes, data }) => {
   const { html } = data.markdownRemark;
 
   return (
-    <ModalRoutingContext.Consumer>
-      {({ modal, closeTo }) => (
-          <React.Fragment>
-            {modal ? (
-              <Page title={title}>
-                <AppBar color={'secondary'} position="sticky">
-                  <Toolbar>
-                    <IconButton component={Link} to={closeTo} color="inherit" aria-label="Close">
-                      <CloseIcon />
-                    </IconButton>
-                    <Typography variant="h6" color="inherit" className={classes.grow}>
-                      {title}
-                    </Typography>
-                  </Toolbar>
-                </AppBar>
+        <Page title={title}>
+          <AppBar color={'secondary'} position="sticky">
+            <Toolbar>
+              <IconButton component={Link} to='/' color="inherit" aria-label="Close">
+                <CloseIcon />
+              </IconButton>
+              <Typography variant="h6" color="inherit" className={classes.grow}>
+                {title}
+              </Typography>
+            </Toolbar>
+          </AppBar>
 
-                <Paper elevation={0}>
-                  <CardMedia style={{ height: '150px' }} image={imageURL} />
-                  <CardContent>
-                    <Typography variant={'body1'} dangerouslySetInnerHTML={{ __html: html }} />
-                  </CardContent>
-                </Paper>
-
-              </Page>
-            ) : (
-              <Page title={title}>
-                <AppBar position="static">
-                  <Toolbar>
-                    <IconButton component={Link} to="/" color="default" aria-label="Close">
-                      <CloseIcon />
-                    </IconButton>
-                    <Typography variant="h6" color="inherit" className={classes.grow}>
-                      {title}
-                    </Typography>
-                  </Toolbar>
-                </AppBar>
-                <Card raised={false}>
-                  <CardMedia style={{ height: '150px' }} image={imageURL} />
-                  <CardContent>
-                    <Typography variant={'body1'} dangerouslySetInnerHTML={{ __html: html }} />
-                  </CardContent>
-                </Card>
-              </Page>
-            )}
-        </React.Fragment>)
-      }
-    </ModalRoutingContext.Consumer>
+          <Paper elevation={0}>
+            <CardMedia style={{ height: '150px' }} image={imageURL} />
+            <CardContent>
+              <Typography variant={'body1'} dangerouslySetInnerHTML={{ __html: html }} />
+            </CardContent>
+          </Paper>
+        </Page>
   )
 }
 

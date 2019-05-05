@@ -58,7 +58,7 @@ function ArticleList(props) {
           }
         } = edge
 
-        console.log('publicURL', imageURL)
+        console.log('articles node', edge)
 
         return (
           <Grid item xs={12} md={4} key={title}>
@@ -68,7 +68,7 @@ function ArticleList(props) {
                 <Typography gutterBottom variant="h6" className={classes.titleText}>
                   <Link
                     to={path}
-                    state={{ modal: true }}
+                    state={{ modal: false }}
                   >
                     {title}
                   </Link>
