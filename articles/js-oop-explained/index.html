@@ -1,0 +1,1571 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.246d67a4ef7e9adeefa5.css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.3.34"/><style type="text/css" id="jss-server-side">.jss125 {
+  background-color: #fff;
+}
+.jss126 {
+  border-radius: 4px;
+}
+.jss127 {
+  box-shadow: none;
+}
+.jss128 {
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.jss129 {
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+.jss130 {
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12);
+}
+.jss131 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.jss132 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.jss133 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.jss134 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.jss135 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.jss136 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.jss137 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.jss138 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.jss139 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.jss140 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.jss141 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.jss142 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.jss143 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.jss144 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.jss145 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.jss146 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.jss147 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.jss148 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.jss149 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.jss150 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.jss151 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+.jss116 {
+  width: 100%;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.jss117 {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: fixed;
+}
+.jss118 {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: absolute;
+}
+.jss119 {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: sticky;
+}
+.jss120 {
+  position: static;
+}
+.jss121 {
+  position: relative;
+}
+.jss122 {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f5f5f5;
+}
+.jss123 {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.jss124 {
+  color: #fff;
+  background-color: #ff5722;
+}
+.jss152 {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.jss153 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .jss153 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.jss154 {
+  min-height: 56px;
+}
+@media (min-width:0px) and (orientation: landscape) {
+  .jss154 {
+    min-height: 48px;
+  }
+}
+@media (min-width:600px) {
+  .jss154 {
+    min-height: 64px;
+  }
+}
+.jss155 {
+  min-height: 48px;
+}
+.jss210 {
+  overflow: hidden;
+}
+.jss213 {
+  padding: 16px;
+}
+.jss213:last-child {
+  padding-bottom: 24px;
+}
+.jss211 {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.jss212 {
+  width: 100%;
+}
+.jss162 {
+  color: inherit;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  display: inline-flex;
+  padding: 0;
+  outline: none;
+  position: relative;
+  user-select: none;
+  align-items: center;
+  border-radius: 0;
+  vertical-align: middle;
+  justify-content: center;
+  -moz-appearance: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.jss162::-moz-focus-inner {
+  border-style: none;
+}
+.jss162.jss163 {
+  cursor: default;
+  pointer-events: none;
+}
+.jss156 {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.jss156:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.jss156.jss160 {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .jss156:hover {
+    background-color: transparent;
+  }
+}
+.jss156:hover.jss160 {
+  background-color: transparent;
+}
+.jss157 {
+  color: inherit;
+}
+.jss158 {
+  color: #3f51b5;
+}
+.jss158:hover {
+  background-color: rgba(63, 81, 181, 0.08);
+}
+@media (hover: none) {
+  .jss158:hover {
+    background-color: transparent;
+  }
+}
+.jss159 {
+  color: #ff5722;
+}
+.jss159:hover {
+  background-color: rgba(255, 87, 34, 0.08);
+}
+@media (hover: none) {
+  .jss159:hover {
+    background-color: transparent;
+  }
+}
+.jss161 {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.jss165 {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 24px;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  user-select: none;
+  flex-shrink: 0;
+}
+.jss166 {
+  color: #3f51b5;
+}
+.jss167 {
+  color: #ff5722;
+}
+.jss168 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.jss169 {
+  color: #f44336;
+}
+.jss170 {
+  color: rgba(0, 0, 0, 0.26);
+}
+.jss171 {
+  font-size: inherit;
+}
+.jss172 {
+  font-size: 20px;
+}
+.jss173 {
+  font-size: 35px;
+}
+.jss174 {
+  margin: 0;
+  display: block;
+}
+.jss175 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 7rem;
+  font-weight: 300;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.14286em;
+  margin-left: -.04em;
+  letter-spacing: -.04em;
+}
+.jss176 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.30357em;
+  margin-left: -.02em;
+  letter-spacing: -.02em;
+}
+.jss177 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 2.8125rem;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.13333em;
+  margin-left: -.02em;
+}
+.jss178 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 2.125rem;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.20588em;
+}
+.jss179 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.35417em;
+}
+.jss180 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.3125rem;
+  font-weight: 500;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.16667em;
+}
+.jss181 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5em;
+}
+.jss182 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01071em;
+}
+.jss183 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.jss184 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.jss185 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.jss186 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 6rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.01562em;
+}
+.jss187 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 3.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.00833em;
+}
+.jss188 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 3rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: 0em;
+}
+.jss189 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 2.125rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.00735em;
+}
+.jss190 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0em;
+}
+.jss191 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+.jss192 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+}
+.jss193 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.57;
+  letter-spacing: 0.00714em;
+}
+.jss194 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 2.66;
+  letter-spacing: 0.08333em;
+  text-transform: uppercase;
+}
+.jss195 {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+}
+.jss196 {
+  text-align: left;
+}
+.jss197 {
+  text-align: center;
+}
+.jss198 {
+  text-align: right;
+}
+.jss199 {
+  text-align: justify;
+}
+.jss200 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.jss201 {
+  margin-bottom: 0.35em;
+}
+.jss202 {
+  margin-bottom: 16px;
+}
+.jss203 {
+  color: inherit;
+}
+.jss204 {
+  color: #3f51b5;
+}
+.jss205 {
+  color: #ff5722;
+}
+.jss206 {
+  color: rgba(0, 0, 0, 0.87);
+}
+.jss207 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.jss208 {
+  color: #f44336;
+}
+.jss209 {
+  display: inline;
+}
+.jss19 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.jss20 {
+  margin: 0;
+  box-sizing: border-box;
+}
+.jss21 {
+  min-width: 0;
+}
+.jss22 {
+  flex-direction: column;
+}
+.jss23 {
+  flex-direction: column-reverse;
+}
+.jss24 {
+  flex-direction: row-reverse;
+}
+.jss25 {
+  flex-wrap: nowrap;
+}
+.jss26 {
+  flex-wrap: wrap-reverse;
+}
+.jss27 {
+  align-items: center;
+}
+.jss28 {
+  align-items: flex-start;
+}
+.jss29 {
+  align-items: flex-end;
+}
+.jss30 {
+  align-items: baseline;
+}
+.jss31 {
+  align-content: center;
+}
+.jss32 {
+  align-content: flex-start;
+}
+.jss33 {
+  align-content: flex-end;
+}
+.jss34 {
+  align-content: space-between;
+}
+.jss35 {
+  align-content: space-around;
+}
+.jss36 {
+  justify-content: center;
+}
+.jss37 {
+  justify-content: flex-end;
+}
+.jss38 {
+  justify-content: space-between;
+}
+.jss39 {
+  justify-content: space-around;
+}
+.jss40 {
+  justify-content: space-evenly;
+}
+.jss41 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.jss41 > .jss20 {
+  padding: 4px;
+}
+.jss42 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.jss42 > .jss20 {
+  padding: 8px;
+}
+.jss43 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.jss43 > .jss20 {
+  padding: 12px;
+}
+.jss44 {
+  width: calc(100% + 32px);
+  margin: -16px;
+}
+.jss44 > .jss20 {
+  padding: 16px;
+}
+.jss45 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.jss45 > .jss20 {
+  padding: 20px;
+}
+.jss46 {
+  flex-grow: 0;
+  max-width: none;
+  flex-basis: auto;
+}
+.jss47 {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.jss48 {
+  flex-grow: 0;
+  max-width: 8.333333%;
+  flex-basis: 8.333333%;
+}
+.jss49 {
+  flex-grow: 0;
+  max-width: 16.666667%;
+  flex-basis: 16.666667%;
+}
+.jss50 {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.jss51 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.jss52 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.jss53 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.jss54 {
+  flex-grow: 0;
+  max-width: 58.333333%;
+  flex-basis: 58.333333%;
+}
+.jss55 {
+  flex-grow: 0;
+  max-width: 66.666667%;
+  flex-basis: 66.666667%;
+}
+.jss56 {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.jss57 {
+  flex-grow: 0;
+  max-width: 83.333333%;
+  flex-basis: 83.333333%;
+}
+.jss58 {
+  flex-grow: 0;
+  max-width: 91.666667%;
+  flex-basis: 91.666667%;
+}
+.jss59 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:600px) {
+  .jss60 {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .jss61 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .jss62 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .jss63 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .jss64 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .jss65 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .jss66 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .jss67 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .jss68 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .jss69 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .jss70 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .jss71 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .jss72 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .jss73 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .jss74 {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .jss75 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .jss76 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .jss77 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .jss78 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .jss79 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .jss80 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .jss81 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .jss82 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .jss83 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .jss84 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .jss85 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .jss86 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .jss87 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1280px) {
+  .jss88 {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .jss89 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .jss90 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .jss91 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .jss92 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .jss93 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .jss94 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .jss95 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .jss96 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .jss97 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .jss98 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .jss99 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .jss100 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .jss101 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .jss102 {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .jss103 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .jss104 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .jss105 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .jss106 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .jss107 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .jss108 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .jss109 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .jss110 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .jss111 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .jss112 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .jss113 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .jss114 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .jss115 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+@media (min-width:0px) and (max-width:599.95px) {
+  .jss1 {
+    display: none;
+  }
+}
+@media (min-width:0px) {
+  .jss2 {
+    display: none;
+  }
+}
+@media (max-width:599.95px) {
+  .jss3 {
+    display: none;
+  }
+}
+@media (min-width:600px) and (max-width:959.95px) {
+  .jss4 {
+    display: none;
+  }
+}
+@media (min-width:600px) {
+  .jss5 {
+    display: none;
+  }
+}
+@media (max-width:959.95px) {
+  .jss6 {
+    display: none;
+  }
+}
+@media (min-width:960px) and (max-width:1279.95px) {
+  .jss7 {
+    display: none;
+  }
+}
+@media (min-width:960px) {
+  .jss8 {
+    display: none;
+  }
+}
+@media (max-width:1279.95px) {
+  .jss9 {
+    display: none;
+  }
+}
+@media (min-width:1280px) and (max-width:1919.95px) {
+  .jss10 {
+    display: none;
+  }
+}
+@media (min-width:1280px) {
+  .jss11 {
+    display: none;
+  }
+}
+@media (max-width:1919.95px) {
+  .jss12 {
+    display: none;
+  }
+}
+@media (min-width:1920px) {
+  .jss13 {
+    display: none;
+  }
+}
+@media (min-width:1920px) {
+  .jss14 {
+    display: none;
+  }
+}
+@media (min-width:0px) {
+  .jss15 {
+    display: none;
+  }
+}
+.jss16 {
+  flex-grow: 1;
+}
+.jss17 {
+  flex-grow: 1;
+}
+.jss18 {
+  margin-left: -12px;
+  margin-right: 20px;
+}</style><title data-react-helmet="true"></title><link as="script" rel="preload" href="/component---src-templates-general-template-js-cba56196fefe1dbf3dfb.js"/><link as="script" rel="preload" href="/1-6b940e3416113f152e44.js"/><link as="script" rel="preload" href="/0-74cd0499e258d9dfde16.js"/><link as="script" rel="preload" href="/app-ae3d57aeb4d31c9074aa.js"/><link as="script" rel="preload" href="/styles-317bf214c1142bb147cf.js"/><link as="script" rel="preload" href="/webpack-runtime-f20e22fe99dfa07a732c.js"/><link as="fetch" rel="preload" href="/static/d/496/path---articles-js-oop-explained-b-95-e88-l4BEZXtFdaTrBOsbeWhvp0qFIzw.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class=""><div class="jss19 jss36"><div class="jss20 jss47"><header class="jss125 jss131 jss116 jss120 jss123"><div class="jss152 jss154 jss153"><a class="jss162 jss156" tabindex="0" role="button" aria-label="Close" href="/"><span class="jss161"><svg class="jss165" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path fill="none" d="M0 0h24v24H0z"></path></svg></span></a><h6 class="jss174 jss191 jss203 jss17">OOP - explained</h6></div></header><div class="jss125 jss128 jss126 jss210"><div class="jss211" style="background-image:url(&quot;/images/javascript-illustration.png&quot;);height:150px"></div><div class="jss213"><p class="jss174 jss183"><p>Object Oriented Programming, OOP, refers to using self-contained pieces of code to develop applications. We call these
+self-contained pieces of code objects, better known as Classes in most OOP programming languages and Functions in
+JavaScript. We use objects as building blocks for our applications. Building applications with objects allows us to
+adopt some valuable techniques, namely, Inheritance, objects can inherit features from other objects, Polymorphism,
+objects can share the same interface—how they are accessed and used—while their underlying implementation of the
+interface may differ, and Encapsulation, each object is responsible for specific tasks.</p>
+<p><a
+    class="gatsby-resp-image-link"
+    href="/static/6f11241f0d717b0c4e163986ba76fe0b/8ff1e/javascript-illustration.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 760px;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 37.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAABkElEQVQY02P4fY3x91UwuoYT/b/H8P8+A4iEob83QeIMv68z/L7J8PsGw69rjD8uM/24wvQdTALRzytMf64zfr/MeHodz/E1fCfW8J1cyw9Ep9fxvj3F8u8GA8Ovkxw/d0j8PCj+5yrYhjsM/++CyTsMf24w/rvJAFRnbWljZuhhpO+grWOrq2uro2m9erLg/5sMDD82cH1ZVvd3f8azfYx7l8idWie+bZ4CkDy0XPr2bn6gEW9OstpZWxkbO1hYOBkb22trm8vJm8/vEnp2lJnh517uz2u7/+yJenKAYe1Utb2LZTbOVNq9UHbtFOWbuwSArvh4gcXVwcbcysXE3MHCzMHUxFZV1WL1ZIHHh5gYfl9m/rmX5+cxtj83wYFxF+bsuyBnA912fhOnjpaJsoK5pqaNlratooKRuLhxe6nonT0s4AC7DQ4zpOD9BWP8vcF4YRPHkh7eRd1ca6eJbJotuayPd0kv7+rJvJe3soH1XGXCE1VAV/y8xvjkCMv9A0z39zM+OsQCQgdZbu1mBQDoTPh80HAO0AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    ></span>
+    <img
+        class="gatsby-resp-image-image"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
+        alt="Material design type system"
+        title=""
+        src="/static/6f11241f0d717b0c4e163986ba76fe0b/db64a/javascript-illustration.png"
+        srcset="/static/6f11241f0d717b0c4e163986ba76fe0b/67a95/javascript-illustration.png 190w,
+/static/6f11241f0d717b0c4e163986ba76fe0b/b2ba1/javascript-illustration.png 380w,
+/static/6f11241f0d717b0c4e163986ba76fe0b/db64a/javascript-illustration.png 760w,
+/static/6f11241f0d717b0c4e163986ba76fe0b/8ff1e/javascript-illustration.png 800w"
+        sizes="(max-width: 760px) 100vw, 760px"
+      />
+  </span>
+  </a></p>
+<p>In this article, we are concerned with only Inheritance and Encapsulation since only these two concepts apply to OOP
+in JavaScript, particularly because, in JavaScript, objects can encapsulate functionality and inherit methods and
+properties from other objects. Accordingly, in the rest of the article, I discuss everything you need to know about
+using objects in JavaScript in an object oriented manner, with inheritance and encapsulation, to easily reuse code and
+abstract functionality into specialized objects.</p>
+<p>We will focus on only the best two techniques1 for implementing OOP in JavaScript. Indeed, many techniques exist for
+implementing OOP in JavaScript, but rather than evaluate each, I choose to focus on the two best techniques: the best
+technique for creating objects with specialized functionality, aka Encapsulation, and the best technique for reusing
+code, aka Inheritance. By “best” I mean the most apt, the most efficient, the most robust.</p>
+<h2>Encapsulation and Inheritance Overview</h2>
+<p> Objects can be thought of as the main actors in an application, or simply the main “things” or building blocks that do
+all the work. As you know by now, objects are everywhere in JavaScript since every component in JavaScript is an Object,
+including Functions, Strings, and Numbers. We normally use object literals or constructor functions to create objects.</p>
+<p>Encapsulation refers to enclosing all the functionality of an object within that object so that the object’s internal
+workings, its methods and properties, are hidden from the rest of the application. This allows us to abstract or
+localize specific set of functionality on objects.</p>
+<p>Inheritance refers to an object being able to inherit methods and properties from a parent object, a Class in other OOP
+languages, or a Function in JavaScript.</p>
+<p>Both of these concepts, encapsulation and inheritance, are important because they allow us to build applications with
+reusable code, scalable architecture, and abstracted functionality. Maintainable, scalable, efficient.</p>
+<p> An instance is an implementation of a Function. In simple terms, it is a copy, or “child” of a Function or object.
+For example:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Tree is a constructor function because </span>
+<span class="token comment">// we will use new keyword to invoke it.</span>
+<span class="token keyword">function</span> <span class="token function">Tree</span> <span class="token punctuation">(</span><span class="token parameter">typeOfTree</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> 
+
+<span class="token comment">// bananaTree is an instance of Tree.</span>
+<span class="token keyword">var</span> bananaTree <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Tree</span> <span class="token punctuation">(</span><span class="token string">"banana"</span><span class="token punctuation">)</span></code></pre></div>
+<p>In the preceding example, bananaTree is an object that was created from the Tree constructor function. We say that the
+bananaTree object is an instance of the Tree object. Tree is both an object and a function, because functions are
+objects in JavaScript. bananaTree can have its own methods and properties and inherit methods and properties from the
+Tree object, as we will discuss in detail when we study inheritance below.</p>
+<h2>OOP in JavaScript</h2>
+<p>The two important principles with OOP in JavaScript are Object Creation patterns, Encapsulation, and Code Reuse
+patterns, Inheritance. When building applications, you create many objects, and there exist many ways for creating
+these objects: you can use the ubiquitous object literal pattern, for example:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">var</span> myObj <span class="token operator">=</span> <span class="token punctuation">{</span>name<span class="token punctuation">:</span> <span class="token string">"Henrik"</span><span class="token punctuation">,</span> profession<span class="token punctuation">:</span> <span class="token string">"Developer"</span><span class="token punctuation">}</span></code></pre></div>
+<p>You can use the prototype pattern, adding each method and property directly on the object’s prototype. For example: </p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">Employee</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token class-name">Employee</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>firstName <span class="token operator">=</span> <span class="token string">"Abhijit"</span>
+<span class="token class-name">Employee</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>lastName <span class="token operator">=</span> <span class="token string">"Patel"</span>
+<span class="token class-name">Employee</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>startDate <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token class-name">Employee</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>signedNDA <span class="token operator">=</span> <span class="token boolean">true</span>
+<span class="token class-name">Employee</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">fullName</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>firstName <span class="token operator">+</span> <span class="token string">" "</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>lastName<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> abhijit <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Employee</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> 
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>abhijit<span class="token punctuation">.</span><span class="token function">fullName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// Abhijit Patel</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>abhijit<span class="token punctuation">.</span>signedNDA<span class="token punctuation">)</span> <span class="token comment">// true</span></code></pre></div>
+<p>You can also use the constructor pattern, a constructor function, Classes in other languages, but Functions in JavaScript.
+For example: </p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Employee() is the constructor function because </span>
+<span class="token comment">// we use the new keyword below to invoke it.</span>
+<span class="token keyword">function</span> <span class="token function">Employee</span><span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> profession</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+  <span class="token keyword">this</span><span class="token punctuation">.</span>profession <span class="token operator">=</span> profession
+<span class="token punctuation">}</span> 
+
+<span class="token comment">// henrik is a new object we create from </span>
+<span class="token comment">// the Employee() constructor function.</span>
+<span class="token keyword">var</span> henrik <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Employee</span><span class="token punctuation">(</span>“Henrik”<span class="token punctuation">,</span> “Developer”<span class="token punctuation">)</span> 
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>henrik<span class="token punctuation">.</span>name<span class="token punctuation">)</span>  <span class="token comment">//Henrik</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>henrik<span class="token punctuation">.</span>profession<span class="token punctuation">)</span>  <span class="token comment">// Developer</span></code></pre></div>
+<p>In the latter example, we use a custom constructor function to create an object. This is how we create objects when we
+want to add methods and properties on our objects, and when we want to encapsulate functionality on our objects.
+JavaScript developers have invented many patterns (or ways) for creating objects with constructor functions. And when we
+say Object Creation Patterns, we are concerned principally with the many ways of creating objects from constructor
+functions, as in the preceding example.</p>
+<p>In addition to the patterns for creating objects, you want to reuse code efficiently. When you create your objects, you
+will likely want some of them to inherit (have similar functionality) methods and properties from a parent object, yet
+they should also have their own methods and properties. Code reuse patterns facilitate ways in which we can implement
+inheritance.</p>
+<p>These two universal principles—creating objects (especially from constructor Functions) and allowing objects to inherit
+properties and methods—are the main focus of this article and, indeed, the main concepts with OOP in JavaScript. We
+first discuss the object creation pattern.</p>
+<h2>Encapsulation in JavaScript</h2>
+<p>As discussed above, one of the main principles with OOP is encapsulation: put all the inner workings of an object inside
+that object. To implement encapsulation in JavaScript, we have to define the core methods and properties on that object.
+To do this, we will use the best pattern for encapsulation in JavaScript: the Combination Constructor/Prototype Pattern.
+This name is a mouthful, but you needn’t memorize it, since we are only concerned with its implementation. Before we
+implement it, let’s quickly learn a bit more about the practicality of encapsulation.</p>
+<p>Why Encapsulation?
+When you simply want to create an object just to store some data, and it is the only object of its kind, you can use an
+object literal and create your object. This is quite common and you will use this simple pattern often.</p>
+<p>However, whenever you want to create objects with similar functionality, to use the same methods and properties, you
+encapsulate the main functionality in a Function and you use that Function’s constructor to create the objects. This is
+the essence of encapsulation, and it is this need for encapsulation that we are concerned with and why we are using the
+Combination Constructor/Prototype Pattern.</p>
+<p>To make practical use of OOP in JavaScript, we will build an object-oriented quiz application that uses all the
+principles and techniques we learn in this article. First up, our quiz application will have users (a Users Function)
+who take the quiz. There will be some common properties for every user who takes the quiz: each user will have a name,
+a score, an email, and the quiz scores (all the scores). These are the properties of the User object. In addition, each
+User object should be able to show the name and score, save scores, and change the email. These are the methods of
+the object.</p>
+<p>Because we want ALL the user objects to have these same properties and methods, we cannot use the object literal way of
+creating objects. We have to use a constructor Function to encapsulate these properties and methods.</p>
+<p>Since we know all users will have the same set of properties, it makes sense to create a Function,  Class in OOP
+languages, that encapsulates these properties and methods. Thus, we will use the Combination Constructor/Prototype
+Pattern for this.</p>
+<h3>Implementation of Combination Constructor/Prototype Pattern</h3>
+<p>The User Function:</p>
+<p>I will explain each line.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">User</span> <span class="token punctuation">(</span><span class="token parameter">theName<span class="token punctuation">,</span> theEmail</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> theName
+  <span class="token keyword">this</span><span class="token punctuation">.</span>email <span class="token operator">=</span> theEmail
+  <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>currentScore <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">User</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> <span class="token punctuation">{</span>
+  constructor<span class="token punctuation">:</span> User<span class="token punctuation">,</span>
+  <span class="token function-variable function">saveScore</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">theScoreToAdd</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>theScoreToAdd<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">showNameAndScores</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> scores <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span>length <span class="token operator">></span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">","</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token string">"No Scores Yet"</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">+</span> <span class="token string">" Scores: "</span> <span class="token operator">+</span> scores
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">changeEmail</span><span class="token punctuation">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">newEmail</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>email <span class="token operator">=</span> newEmail
+    <span class="token keyword">return</span> <span class="token string">"New Email Saved: "</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>email
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h4>Make Instances of the User function</h4>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// A User </span>
+firstUser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string">"Fredrik"</span><span class="token punctuation">,</span> <span class="token string">"fred@examnple.com"</span><span class="token punctuation">)</span> 
+firstUser<span class="token punctuation">.</span><span class="token function">changeEmail</span><span class="token punctuation">(</span><span class="token string">"Fredrik@examnple.com"</span><span class="token punctuation">)</span>
+firstUser<span class="token punctuation">.</span><span class="token function">saveScore</span><span class="token punctuation">(</span><span class="token number">15</span><span class="token punctuation">)</span>
+firstUser<span class="token punctuation">.</span><span class="token function">saveScore</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span>
+
+firstUser<span class="token punctuation">.</span><span class="token function">showNameAndScores</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">//Fredrik Scores: 15,10</span>
+
+<span class="token comment">// Another User</span>
+secondUser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string">"Henrik"</span><span class="token punctuation">,</span> <span class="token string">"Henrik@examnple.com"</span><span class="token punctuation">)</span>
+secondUser<span class="token punctuation">.</span><span class="token function">saveScore</span><span class="token punctuation">(</span><span class="token number">18</span><span class="token punctuation">)</span>
+secondUser<span class="token punctuation">.</span><span class="token function">showNameAndScores</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment">//Henrik Scores: 18</span></code></pre></div>
+<h4>Explanation of Combination Constructor/Prototype Pattern</h4>
+<p>Let’s expound on each line of code so we have a thorough understanding of this pattern.</p>
+<p>The following lines initialize the instance properties. These properties will be defined on each User instance that is
+created. So the values will be different for each user. The use of the this keyword inside the function specifies that
+these properties will be unique to every instance of the User object:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> theName
+<span class="token keyword">this</span><span class="token punctuation">.</span>email <span class="token operator">=</span> theEmail
+<span class="token keyword">this</span><span class="token punctuation">.</span>quizScores <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>currentScore <span class="token operator">=</span> <span class="token number">0</span></code></pre></div>
+<p>In the code below, we are overwriting the prototype property with an object literal, and we define all of our methods
+(that will be inherited by all the User instances) in this object. Discussion continues after the code:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token class-name">User</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> <span class="token punctuation">{</span>
+  constructor<span class="token punctuation">:</span> User<span class="token punctuation">,</span>
+  <span class="token function-variable function">saveScore</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">theScoreToAdd</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>theScoreToAdd<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">showNameAndScores</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> scores <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span>length <span class="token operator">></span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">","</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token string">"No Scores Yet"</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">+</span> <span class="token string">" Scores: "</span> <span class="token operator">+</span> scores
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">changeEmail</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">newEmail</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>email <span class="token operator">=</span> newEmail
+    <span class="token keyword">return</span> <span class="token string">"New Email Saved: "</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>email
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>This way of overwriting the constructor is simply for convenience, so we don’t have to write User.prototype each time,
+like this: </p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token class-name">User</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>constructor <span class="token operator">=</span> User
+<span class="token class-name">User</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">saveScore</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">theScoreToAdd</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>theScoreToAdd<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">User</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">showNameAndScores</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> scores <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span>length <span class="token operator">></span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">","</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token string">"No Scores Yet"</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">+</span> <span class="token string">" Scores: "</span> <span class="token operator">+</span> scores
+<span class="token punctuation">}</span>
+
+<span class="token class-name">User</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">changeEmail</span> <span class="token operator">=</span>  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">newEmail</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>email <span class="token operator">=</span> newEmail
+    <span class="token keyword">return</span> <span class="token string">"New Email Saved: "</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>email
+<span class="token punctuation">}</span></code></pre></div>
+<p>By overwriting the prototype with a new object literal we have all the methods organized in one place, and you can
+better see the encapsulation that we are after. And of course it is less code you have to type.</p>
+<p><strong>JavaScript Prototype</strong>
+In JavaScript, you add methods and properties on the prototype property when you want instances of an object to inherit
+those methods and properties. This is the reason we add the methods on the User.prototype property, so that they can be
+used by all instances of the User object. Read more about JavaScript Prototype in Plain Language.</p>
+<p><strong>Constructor Property</strong>
+In my post JavaScript Prototype, I explained that every function has a constructor property, and this property points
+to the constructor of the function. For example:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">Fruit</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">var</span> newFruit <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Fruit</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span> <span class="token punctuation">(</span>newFruit<span class="token punctuation">.</span>constructor<span class="token punctuation">)</span> <span class="token comment">// Fruit ()</span></code></pre></div>
+<p>The one disadvantage of overwriting the prototype is that the constructor property no longer points to the prototype,
+so we have to set it manually. Hence this line:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"> constructor<span class="token punctuation">:</span> User</code></pre></div>
+<p><strong>Prototype Methods</strong>
+In the following lines, we create methods on the prototype (in the object literal) so that all instances of Users can
+have access to these methods.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token function-variable function">saveScore</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">theScoreToAdd</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>theScoreToAdd<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token function-variable function">showNameAndScores</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> scores <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span>length <span class="token operator">></span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token keyword">this</span><span class="token punctuation">.</span>quizScores<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">","</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token string">"No Scores Yet"</span>
+  <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">+</span> <span class="token string">" Scores: "</span> <span class="token operator">+</span> scores
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token function-variable function">changeEmail</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">newEmail</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>email <span class="token operator">=</span> newEmail<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token string">"New Email Saved: "</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>email<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>We then created instances of the User object:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// A User </span>
+firstUser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string">"Fredrik"</span><span class="token punctuation">,</span> <span class="token string">"Fred@examnple.com"</span><span class="token punctuation">)</span> 
+firstUser<span class="token punctuation">.</span><span class="token function">changeEmail</span><span class="token punctuation">(</span><span class="token string">"Fredrik@examnple.com"</span><span class="token punctuation">)</span>
+firstUser<span class="token punctuation">.</span><span class="token function">saveScore</span><span class="token punctuation">(</span><span class="token number">15</span><span class="token punctuation">)</span>
+firstUser<span class="token punctuation">.</span><span class="token function">saveScore</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> 
+
+firstUser<span class="token punctuation">.</span><span class="token function">showNameAndScores</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment">// Fredrik Scores: 15,10</span>
+
+<span class="token comment">// Another User</span>
+secondUser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">User</span><span class="token punctuation">(</span><span class="token string">"Henrik"</span><span class="token punctuation">,</span> <span class="token string">"Henrik@examnple.com"</span><span class="token punctuation">)</span>
+secondUser<span class="token punctuation">.</span><span class="token function">saveScore</span><span class="token punctuation">(</span><span class="token number">18</span><span class="token punctuation">)</span>
+secondUser<span class="token punctuation">.</span><span class="token function">showNameAndScores</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment">//Henrik Scores: 18</span></code></pre></div>
+<p>As you see, we have encapsulated all the functionality for a User inside the User Function, so that each instance of
+User can make use of the prototype methods (like changeEmail) and define their own instance properties, like name and
+email.</p>
+<p>With this pattern, you can use the standard operators and methods on the instances, including the instanceOf operator,
+the for-in loop, even hasOwnProperty, and the constructor property.</p>
+<h2>Inheritance in JavaScript</h2>
+<p>Implementing inheritance in our quiz application will permit us to inherit functionality from parent Functions so that
+we can easily reuse code in our application and extend the functionality of objects. Objects can make use of their
+inherited functionality and still have their own specialized functionality.</p>
+<p>The best pattern for implementing inheritance in JavaScript is the Parasitic Combination inheritance 2. Before we dive
+into this awesome pattern, let’s see why its practical to use inheritance in our applications.</p>
+<p>We have successfully implemented encapsulation by enclosing all the functionality for users of our quiz application by
+adding all the methods and properties that each user will need on the User function, and all instances of User will
+have those properties and methods.</p>
+<p>Why Inheritance?
+Next, we want to encapsulate all the functionality for every Question. The Question function, Class in OOP languages,
+will have all the generic properties and methods that every kind of question will need to have. For example, every
+question will have the question, the choices, and the correct answer. These will be the properties. In addition, each
+question will have some methods: getCorrectAnswer and getUserAnswer, and displayQuestion.</p>
+<p>We want our quiz application to make different types of Questions. We will implement a MultipleChoiceQuestion function
+and a DragDropQuestion function. To implement these, it would not make sense to put the properties and methods outlined
+above (that all questions will use) inside the MultipleChoiceQuestion and DragDropQuestion functions separately,
+repeating the same code. This would be redundant.</p>
+<p>Instead, we will leave those properties and methods (that all questions will use) inside the Question object and make
+the MultipleChoiceQuestion and DragDropQuestion functions inherit those methods and properties. This is where
+inheritance is important: we can reuse code throughout our application effectively and better maintain our code.</p>
+<p>Since the MultipleChoiceQuestion HTML layout and will be different from the DragDropQuestion HTML layout, the
+displayQuestion method will be implemented differently in each. So we will override the displayQuestion method on the
+DragDropQuestion. Overriding functions is another principle of OOP.</p>
+<h3>Implementing the Parasitic Combination Inheritance Pattern</h3>
+<p>To implement this pattern, we have to use two techniques that were invented specifically for inheritance in JavaScript.
+Some notes about these techniques follow. No need to memorize any of the detail; just understand and be aware of
+the techniques.</p>
+<h4>Prototypal Inheritance by Douglas Crockford</h4>
+<p>Douglas Crockford created the following Object.create method 3, used in a fundamental way to implementing inheritance
+with the pattern we are using.</p>
+<p><strong>Object.create method</strong>
+Ruminate on the method Crockford created:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> Object<span class="token punctuation">.</span>create <span class="token operator">!==</span> <span class="token string">'function'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  Object<span class="token punctuation">.</span><span class="token function-variable function">create</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">functionF</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token class-name">F</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> o
+    <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">F</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>This method has been added to the ECMAScript5 specification, and you can access it with Object.create ().
+Let’s quickly understand it is doing.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">Object<span class="token punctuation">.</span><span class="token function-variable function">create</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// It creates a temporary constructor F()</span>
+  <span class="token keyword">function</span> <span class="token constant">F</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token comment">// And set the prototype of the this constructor </span>
+  <span class="token comment">// to the parametric (passed-in) o object</span>
+  <span class="token comment">// so that the F() constructor now inherits all </span>
+  <span class="token comment">// the properties and methods of o</span>
+  <span class="token class-name">F</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> o
+
+  <span class="token comment">// Then it returns a new, empty object, an instance </span>
+  <span class="token comment">// of F() Note that this instance of F inherits from </span>
+  <span class="token comment">// the passed-in (parametric object) o object. </span>
+  <span class="token comment">// Or you can say it copied all of the o object's </span>
+  <span class="token comment">// properties and methods</span>
+  <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">F</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>The crux of the matter with this Object.create method is that you pass into it an object that you want to inherit from,
+and it returns a new object that inherits from the object you passed into it. For example:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// We have a simple cars object</span>
+<span class="token keyword">var</span> cars <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token punctuation">:</span><span class="token string">"sedan"</span><span class="token punctuation">,</span>
+  wheels<span class="token punctuation">:</span><span class="token number">4</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// We want to inherit from the cars object, so we do:</span>
+<span class="token keyword">var</span> toyota <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>cars<span class="token punctuation">)</span>  <span class="token comment">// now toyota inherits </span>
+                                  <span class="token comment">// the properties from cars</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>toyota<span class="token punctuation">.</span>type<span class="token punctuation">)</span>  <span class="token comment">// sedan</span></code></pre></div>
+<p>Of course we can now add more properties to the toyota object, but let’s move on.</p>
+<p>The next function we will use for inheritance is the inheritPrototype function. This function succinctly implements the
+parasitic combination inheritance for us. We pass in the parent object (or Super Class) and the child object
+(or Sub Class), and the function does the parasitic combination inheritance: makes the child object inherits from the
+parent object.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">inheritPrototype</span><span class="token punctuation">(</span><span class="token parameter">childObject<span class="token punctuation">,</span> parentObject</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// As discussed above, we use the Crockford’s method </span>
+  <span class="token comment">// to copy the properties and methods from the </span>
+  <span class="token comment">// parentObject onto the childObject</span>
+  <span class="token comment">// So the copyOfParent object now has everything the </span>
+  <span class="token comment">// parentObject has </span>
+  <span class="token keyword">var</span> copyOfParent <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>parentObject<span class="token punctuation">.</span>prototype<span class="token punctuation">)</span>
+
+  <span class="token comment">// Then we set the constructor of this new object to </span>
+  <span class="token comment">// point to the childObject.</span>
+  <span class="token comment">// Why do we manually set the copyOfParent constructor here, </span>
+  <span class="token comment">// see the explanation immediately following this code block.</span>
+  copyOfParent<span class="token punctuation">.</span>constructor <span class="token operator">=</span> childObject
+
+  <span class="token comment">// Then we set the childObject prototype to copyOfParent, </span>
+  <span class="token comment">// so that the childObject can in turn inherit everything </span>
+  <span class="token comment">// from copyOfParent (from parentObject)</span>
+   childObject<span class="token punctuation">.</span>prototype <span class="token operator">=</span> copyOfParent
+<span class="token punctuation">}</span></code></pre></div>
+<p>Why did we manually set the copyOfParent.constructor?
+We explicitly set the copyOfParent.constructor property to point to the childObject constructor because in the
+preceding step, var copyOfParent = Object.create(parentObject.prototype), this is what we actually did:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// We made a new object and overwrote its prototype with </span>
+<span class="token comment">// the parentObject prototype:</span>
+<span class="token keyword">function</span> <span class="token constant">F</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">F</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> parentObject<span class="token punctuation">.</span>prototype<span class="token punctuation">;</span>
+<span class="token comment">// Then it was this new F object we assigned to copyOfParent.</span>
+<span class="token comment">// All of this was done inside the Object.create () method.</span></code></pre></div>
+<p>So, this new F object, which we assigned to copyOfParent, doesn’t have a constructor property anymore because we
+overwrote its entire prototype. Whenever you overwrite an object’s prototype (object.prototype = someVal), you also
+overwrite the object’s constructor property.</p>
+<p>To make sure we have the correct value for copyOfParent constructor, we set it manually with this:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript">copyOfParent<span class="token punctuation">.</span>constructor <span class="token operator">=</span> childObject<span class="token punctuation">;</span></code></pre></div>
+<p>Essentially, we are copying all the properties and methods from the parentObject to the childObject, but we are using
+the copyOfParent as an intermediary for the copy. And because the childObject prototype was overwritten during the copy,
+we manually set the copyOfParent constructor to the childObject. Then we set the childObject prototype to the
+copyOfParent so that the childObject inherits from the parentObject.</p>
+<p>Okay, that was quite a bit. I am hopeful you understand some of that :).</p>
+<p><strong>Back to the fun stuff:</strong> Creating our quiz OOP style.
+Now that we understand the inheritPrototype function we will be using, lets go ahead and implement our
+Question constructor.</p>
+<p>Note that I use “constructor” and “function” interchangeably sometimes in this particular article when referring to the
+function, because the function will be used as a constructor to create instances.</p>
+<h4>The Question Constructor (Parent of all Question Objects):</h4>
+<p>(Can be thought of as the Super Class for Questions)</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// The Question function is the parent for all </span>
+<span class="token comment">// other question objects;</span>
+<span class="token comment">// All question objects will inherit from this </span>
+<span class="token comment">// Question constructor</span>
+<span class="token keyword">function</span> <span class="token function">Question</span><span class="token punctuation">(</span><span class="token parameter">theQuestion<span class="token punctuation">,</span> theChoices<span class="token punctuation">,</span> theCorrectAnswer</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Initialize the instance properties</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>question <span class="token operator">=</span> theQuestion<span class="token punctuation">;</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>choices <span class="token operator">=</span> theChoices<span class="token punctuation">;</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>correctAnswer <span class="token operator">=</span> theCorrectAnswer<span class="token punctuation">;</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>userAnswer <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// private properties: these cannot be changed by instances</span>
+  <span class="token keyword">var</span> newDate <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token comment">// Constant variable: available to all instances through the </span>
+  <span class="token comment">// instance method below. This is also a private property.</span>
+  <span class="token keyword">var</span> <span class="token constant">QUIZ_CREATED_DATE</span> <span class="token operator">=</span> newDate<span class="token punctuation">.</span><span class="token function">toLocaleDateString</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// This is the only way to access the private QUIZ_CREATED_DATE </span>
+  <span class="token comment">// variable </span>
+  <span class="token comment">// This is an example of a privilege method: it can access </span>
+  <span class="token comment">// private properties and it can be called publicly</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">getQuizDate</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token constant">QUIZ_CREATED_DATE</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+  <span class="token comment">// A confirmation message that the question was created</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"Quiz Created On: "</span> <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getQuizDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><strong>Add Prototype Methods to The Question Object</strong>
+All instances of the Question object will inherit these methods, because we are adding the methods on the
+Question prototype.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Define the prototype methods that will be inherited</span>
+<span class="token class-name">Question</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">getCorrectAnswer</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span>  <span class="token keyword">this</span><span class="token punctuation">.</span>correctAnswer
+<span class="token punctuation">}</span>
+
+<span class="token class-name">Question</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">getUserAnswer</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>userAnswer
+<span class="token punctuation">}</span>
+
+<span class="token class-name">Question</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">displayQuestion</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> questionToDisplay <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>question
+    <span class="token keyword">var</span> choiceCounter <span class="token operator">=</span> <span class="token number">0</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>choices<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eachChoice</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+        questionToDisplay <span class="token operator">+=</span> <span class="token string">'&lt;span>'</span> <span class="token operator">+</span> eachChoice <span class="token operator">+</span> <span class="token string">'&lt;/span>'</span>
+        choiceCounter<span class="token operator">++</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>questionToDisplay<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span> </code></pre></div>
+<p><strong>Child Questions (Sub Classes of the Question object)</strong>
+Now that we have the Question constructor object setup, we can inherit from it and create sub classes (children objects).
+The power of inheritance is that we can create all sorts of questions now, and each can be quite versatile.</p>
+<p><strong>First, a Multiple Choice Question:</strong></p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Create the MultipleChoiceQuestion</span>
+<span class="token keyword">function</span> <span class="token function">MultipleChoiceQuestion</span><span class="token punctuation">(</span><span class="token parameter">theQuestion<span class="token punctuation">,</span> theChoices<span class="token punctuation">,</span> theCorrectAnswer</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token comment">// For MultipleChoiceQuestion to properly inherit from Question, </span>
+  <span class="token comment">// here inside the MultipleChoiceQuestion constructor, we have to </span>
+  <span class="token comment">// explicitly call the Question constructor</span>
+  <span class="token comment">// passing MultipleChoiceQuestion as the this object, and the parameters </span>
+  <span class="token comment">// we want to use in the Question constructor:</span>
+  <span class="token function">Question</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span> theQuestion<span class="token punctuation">,</span> theChoices<span class="token punctuation">,</span> theCorrectAnswer<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>And then we have to use the inheritPrototype function we discussed moments ago:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// inherit the methods and properties from Question</span>
+<span class="token function">inheritPrototype</span><span class="token punctuation">(</span>MultipleChoiceQuestion<span class="token punctuation">,</span> Question<span class="token punctuation">)</span></code></pre></div>
+<p><strong>After</strong> we have inherited from Question, we then add methods to the MultipleChoiceQuestion function, if necessary.
+But we must do it after we inherit, not before, or all the methods we define on its prototype will be overwritten.
+We are not adding any now.</p>
+<p><strong>A Drag and Drop Question</strong>
+In a similar manner, we can make yet another type of question:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Create the DragDropQuestion</span>
+<span class="token keyword">function</span> <span class="token function">DragDropQuestion</span><span class="token punctuation">(</span><span class="token parameter">theQuestion<span class="token punctuation">,</span> theChoices<span class="token punctuation">,</span> theCorrectAnswer</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">Question</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span> theQuestion<span class="token punctuation">,</span> theChoices<span class="token punctuation">,</span> theCorrectAnswer<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// inherit the methods and properties from Question</span>
+<span class="token function">inheritPrototype</span><span class="token punctuation">(</span>DragDropQuestion<span class="token punctuation">,</span> Question<span class="token punctuation">)</span></code></pre></div>
+<p><strong>Overriding Methods</strong>
+Overriding methods is a another principle of OOP, and we can do it easily with this pattern. Since the Drag and
+Drop questions will have a different HTML layout from the Multiple Choice questions (no radio buttons, for example),
+we can override the displayQuestion method so it operates specifically to the Drag and Drop question needs:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Override the displayQuestion method it inherited</span>
+<span class="token class-name">DragDropQuestion</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">displayQuestion</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Just return the question. Drag and Drop implementation </span>
+  <span class="token comment">// detail is beyond this article</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>question<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>In our real Quiz application, we would create a Quiz constructor that is the main application that launches the quiz,
+but in this article, we can test our inheritance code by simply doing this:</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// Initialize some questions and add them to an array</span>
+<span class="token keyword">var</span> allQuestions <span class="token operator">=</span> <span class="token punctuation">[</span>
+<span class="token keyword">new</span> <span class="token class-name">MultipleChoiceQuestion</span><span class="token punctuation">(</span><span class="token string">"Who is Prime Minister of England?"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">"Trump"</span><span class="token punctuation">,</span> <span class="token string">"May"</span><span class="token punctuation">,</span> <span class="token string">"Löfven"</span><span class="token punctuation">,</span> <span class="token string">"Macron"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+   
+<span class="token keyword">new</span> <span class="token class-name">MultipleChoiceQuestion</span><span class="token punctuation">(</span><span class="token string">"What is the Capital of Brazil?"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">"São Paulo"</span><span class="token punctuation">,</span> <span class="token string">"Rio de Janeiro"</span><span class="token punctuation">,</span> <span class="token string">"Brasília"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+   
+<span class="token keyword">new</span> <span class="token class-name">DragDropQuestion</span><span class="token punctuation">(</span><span class="token string">"Drag the correct City to the world map."</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">"Washington, DC"</span><span class="token punctuation">,</span> <span class="token string">"Rio de Janeiro"</span><span class="token punctuation">,</span> <span class="token string">"Stockholm"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+<span class="token punctuation">]</span>
+
+<span class="token comment">// Display all the questions</span>
+allQuestions<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eachQuestion</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+    eachQuestion<span class="token punctuation">.</span><span class="token function">displayQuestion</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>If you run the code, you will see that the displayQuestion for the multiple choice questions returns the question in a
+div tag, with choices formatted with radio buttons inside li tags. On the other hand, the drag and drop questions
+displayQuestion method simply returns the question without the choices.</p>
+<p>Nicholas Zakas stated it wonderfully, “Parasitic combination inheritance is considered the most optimal inheritance
+paradigm” 5 in JavaScript. If you learn it and understand it well, you should use it in your JavaScript web applications.</p>
+<p>You might be wondering how is the Combination Constructor/Prototype Pattern we used for Encapsulation earlier different
+from the Parasitic Combination Inheritance. They are similar, but the former is best used for encapsulation
+(creating custom objects), and it does not have all the inheritance mechanisms such as subclassing (creating child
+constructors that inherit from the parent constructor). Moreover, the inheritance pattern goes beyond setting up objects
+to just inherit properties and methods, it enables child objects to themselves be parent objects of other objects, and
+you can use private members, overriding, and other OOP concepts.</p></p></div></div></div></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-general-template-js","jsonName":"articles-js-oop-explained-b95","path":"/articles/js-oop-explained"};window.dataPath="496/path---articles-js-oop-explained-b-95-e88-l4BEZXtFdaTrBOsbeWhvp0qFIzw";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-ae3d57aeb4d31c9074aa.js"],"component---src-templates-general-template-js":["/component---src-templates-general-template-js-cba56196fefe1dbf3dfb.js"],"component---src-pages-404-js":["/component---src-pages-404-js-fe986a58f1e45ecda003.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1527e1508a3a1b7d8f52.js"],"pages-manifest":["/pages-manifest-6c0362c24e4b976c5af1.js"]};/*]]>*/</script><script src="/webpack-runtime-f20e22fe99dfa07a732c.js" async=""></script><script src="/styles-317bf214c1142bb147cf.js" async=""></script><script src="/app-ae3d57aeb4d31c9074aa.js" async=""></script><script src="/0-74cd0499e258d9dfde16.js" async=""></script><script src="/1-6b940e3416113f152e44.js" async=""></script><script src="/component---src-templates-general-template-js-cba56196fefe1dbf3dfb.js" async=""></script></body></html>
