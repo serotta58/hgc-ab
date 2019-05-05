@@ -22,7 +22,9 @@ export default function useArticles() {
           node {
             id
             frontmatter {
-              imageURL
+              imageURL {
+                publicURL
+              }
               path
               title
               date(formatString: "DD MMMM YYYY")

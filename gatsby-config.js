@@ -23,7 +23,6 @@ module.exports = {
     menuLinks: [],
   },
   plugins: [
-    'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-remove-serviceworker',
     `gatsby-remark-prismjs`,

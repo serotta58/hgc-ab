@@ -9,13 +9,13 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 
 // Modal routing plug-in
-import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
+// import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
 
 // material-ui
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar';
 import Paper from '@material-ui/core/Paper'
-import Card from '@material-ui/core/Card'
+// import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import IconButton from '@material-ui/core/IconButton'
@@ -66,7 +66,7 @@ const GeneralTemplate = ({ classes, data }) => {
           </AppBar>
 
           <Paper elevation={0}>
-            <CardMedia style={{ height: '150px' }} image={imageURL} />
+            <CardMedia style={{ height: '150px' }} image={imageURL.publicURL} />
             <CardContent>
               <Typography variant={'body1'} dangerouslySetInnerHTML={{ __html: html }} />
             </CardContent>
@@ -79,7 +79,9 @@ export const query = graphql`
   query($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
-        imageURL
+        imageURL {
+          publicURL
+        }
         title
         path
       }

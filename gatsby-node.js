@@ -16,6 +16,7 @@ const path = require('path')
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
+  // Why is this asynchronous?  Not really needed since gatsby-node runs during compile, not on client
   return Promise.all(
     ['articles','services'].map(async item => {
       const result = await graphql(
@@ -30,7 +31,9 @@ exports.createPages = ({ graphql, actions }) => {
                 id
                 excerpt
                 frontmatter {
-                  imageURL
+                  imageURL {
+                    publicURL
+                  }
                   path
                   title
                   date(formatString: "YYYY MM DD")

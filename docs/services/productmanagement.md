@@ -2,7 +2,7 @@
 path: "/services/product-management"
 title: "Product Management"
 date: 2014-02-11T12:33:46+10:00
-imageURL: "https://d3lubguj0jcn6d.cloudfront.net/what_is_a_product_manager-570x320.png"
+imageURL: "./what_is_a_product_manager-570x320.png"
 published: "Yes"
 ---
 
